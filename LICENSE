@@ -19,3 +19,48 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+# Artifact Description
+
+## Paper
+
+CATS: Context-Adaptable Tag Signatures for Anonymous Credentials from Lattices
+
+## Artifact Scope
+
+This artifact supports the implementation and performance evaluation in
+Section X of the paper. It includes:
+
+1. CATS signing and adaptation procedures.
+2. Credential issuance and showing benchmarks.
+3. Communication-size accounting scripts.
+4. Parameter files for the evaluated 128-bit security profile.
+5. Scripts for reproducing Tables X and Y.
+
+## Claims Supported
+
+This artifact supports the following claims:
+
+- CATS reduces median credential issuance time by 34.7% compared with Argo24
+  under the controlled benchmark setting.
+- CATS reduces median credential showing time by 31.6%.
+- CATS achieves sub-240 ms ordinary showing with 72 KB presentation proofs.
+
+## Claims Not Supported
+
+This artifact does not claim to reproduce independent implementations of
+Jeudy23, Bootle23, or Chath26. These works are used for functionality and
+security positioning only.
+
+## Hardware Used in the Paper
+
+Fill in your actual hardware here:
+
+- CPU:
+- RAM:
+- OS:
+- Compiler:
+- Number of runs: 1000
+- Execution model: single-threaded
